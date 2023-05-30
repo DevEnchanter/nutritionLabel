@@ -1,0 +1,118 @@
+/* Apply border-box sizing to all elements */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Set the base font size for the HTML document */
+  html {
+    font-size: 16px;
+  }
+  
+  /* Set the font family for the body */
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* Styles for the label container */
+  .label {
+    border: 2px solid black;
+    width: 270px;
+    margin: 20px auto;
+    padding: 0 7px;
+  }
+  
+  /* Styles for the header section */
+  header h1 {
+    text-align: center;
+    margin: -4px 0;
+    letter-spacing: 0.15px;
+  }
+  
+  /* Styles for paragraphs */
+  p {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Styles for dividers */
+  .divider {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+  }
+  
+  /* Styles for bold text */
+  .bold {
+    font-weight: 800;
+  }
+  
+  /* Styles for large and medium dividers */
+  .large {
+    height: 10px;
+  }
+  
+  .large, .medium {
+    background-color: black;
+    border: 0;
+  }
+  
+  .medium {
+    height: 5px;
+  }
+  
+  /* Styles for small text */
+  .small-text {
+    font-size: 0.85rem;
+  }
+  
+  /* Styles for the calories information section */
+  .calories-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+  .calories-info h2 {
+    margin: 0;
+  }
+  
+  .left-container p {
+    margin: -5px -2px;
+    font-size: 2em;
+    font-weight: 700;
+  }
+  
+  .calories-info span {
+    margin: -7px -2px;
+    font-size: 2.4em;
+    font-weight: 700;
+  }
+  
+  /* Styles for right-aligned elements */
+  .right {
+    justify-content: flex-end;
+  }
+  
+  /* Styles for indented text */
+  .indent {
+    margin-left: 1em;
+  }
+  
+  /* Styles for double-indented text */
+  .double-indent {
+    margin-left: 2em;
+  }
+  
+  /* Styles for daily value paragraphs */
+  .daily-value p:not(.no-divider) {
+    border-bottom: 1px solid #888989;
+  }
+  
+  /* Styles for the note section */
+  .note {
+    font-size: 0.6rem;
+    margin: 5px 0;
+    padding: 0 8px;
+    text-indent: -8px;
+  }
+  
